@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'ichigojam';
+    src: url("../font/IchigoJam-1.4.woff")format('woff');
+  }
+
+  @font-face {
+    font-family: 'kodomo';
+    src: url("../font/kodomo.woff")format('woff');
+  }
+  
+.body{
+  display: flex;
+  flex-flow: column;
+}
+
+.title{
+  font-family: "kodomo";
+  font-size: 20px;
+  color: rgb(8, 42, 0);
+  text-align: center;
+}
+
+.form{
+  display: flex;
+  flex-flow: column;
+}
+
+.ichigojam{
+    font-family: "ichigojam";
+    font-size: 75%;
+    white-space: pre-wrap;
+    max-width: 400px;
+    min-width: 400px;
+    
+    background: rgb(8, 42, 0);
+    /* background: linear-gradient(0deg, rgba(179,28,151,1) 0%, rgba(244,111,168,1) 100%); */
+      border-radius : 10px; 
+      color: white;
+      padding: .5em 1em;
+      margin:10px 0 0 0 ;
+      line-height: 1.3em;
+      letter-spacing: 0px;
+      word-break: break-all;
+      align-self: center;
+  }
+  
+#info{
+  font-family: "kodomo";
+  align-self: center;
+  display: flex; 
+  align-items: center;
+  margin:10px auto 0 auto;
+  
+}
+  
+  #checkbox1{
+    margin-right: 15px;
+  }
+  #checkbox2{
+    margin-right: 15px;
+  }
+
+  #commandBtn{
+    font-family: "ichigojam";
+    font-size: 70%;
+    background: rgb(8, 42, 0);
+    color: white;
+    margin:0 0 5px 5px;
+    border-radius : 5px; 
+  }
+
+
+.ip{
+  font-family: "kodomo";
+  width: 400px;
+  min-width: 300px;
+  margin:10px 0 10px 0;
+  align-self: center;
+  text-align: center;
+}
+
+  .button{
+    width: 400px;
+    font-family: "kodomo";
+    color: rgb(8, 42, 0);
+    background-color: rgb(204, 222, 204);
+    min-width: 300px;
+    margin-bottom:10px;
+    padding: .5em 1em;
+    align-self: center;
+    border: none;
+
+  }
+  .button:hover{
+    color: white;
+    background-color: rgb(8, 42, 0);
+  }
+

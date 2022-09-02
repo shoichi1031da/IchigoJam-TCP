@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IchigoJam TCP</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">  
+    
+</head>
+<body>
+    <div class="title">IchigoJam TCP</div>
+
+    <form method="post" action="/" class="form">
+        <textarea type="text" name="command" id="command" class="ichigojam" rows="10" placeholder='?"MJ TCP ichigojam.top 1500"'></textarea>
+        <div id="info">
+            <label>'<input type="checkbox" name="single" value="'" id="checkbox1"></label>
+            <label>↩︎<input type="checkbox" name="newLine" value="↩︎" id="checkbox2"></label>
+            <div id="btns"></div>
+        </div>
+            <textarea type="text" name="IPaddress"  id="IPaddress" class="ip" rows="1" maxlength="15" placeholder="IchigoJamのIPアドレス（***.***.***.***）" required ></textarea>    
+        <input type="submit" value="送る" id="btn" class="button">
+    </form>
+
+    <script type="module" src="js/index.js"></script>
+
+</body>
+</html>
